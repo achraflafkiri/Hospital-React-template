@@ -1,5 +1,11 @@
 import React from 'react';
 
+// Import Images
+import priceOne from "../assets/images/price-1.jpg";
+import priceTwo from "../assets/images/price-2.jpg";
+import priceThree from "../assets/images/price-3.jpg";
+import priceFour from "../assets/images/price-4.jpg";
+
 const Pricing = () => {
   return (
     <div className="container-fluid py-5">
@@ -11,7 +17,7 @@ const Pricing = () => {
         <div className="owl-carousel price-carousel position-relative" style={{ padding: '0 45px 45px 45px' }}>
           <div className="bg-light rounded text-center">
             <div className="position-relative">
-              <img className="img-fluid rounded-top" src="img/price-1.jpg" alt="" />
+              <img className="img-fluid rounded-top" src={priceOne} alt="" />
               <div className="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style={{ background: 'rgba(29, 42, 77, .8)' }}>
                 <h3 className="text-white">Pregnancy Care</h3>
                 <h1 className="display-4 text-white mb-0">
@@ -29,7 +35,7 @@ const Pricing = () => {
           </div>
           <div className="bg-light rounded text-center">
             <div className="position-relative">
-              <img className="img-fluid rounded-top" src="img/price-2.jpg" alt="" />
+              <img className="img-fluid rounded-top" src={priceTwo} alt="" />
               <div className="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style={{ background: 'rgba(29, 42, 77, .8)' }}>
                 <h3 className="text-white">Health Checkup</h3>
                 <h1 className="display-4 text-white mb-0">
@@ -47,7 +53,7 @@ const Pricing = () => {
           </div>
           <div className="bg-light rounded text-center">
             <div className="position-relative">
-              <img className="img-fluid rounded-top" src="img/price-3.jpg" alt="" />
+              <img className="img-fluid rounded-top" src={priceThree} alt="" />
               <div className="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style={{ background: 'rgba(29, 42, 77, .8)' }}>
                 <h3 className="text-white">Dental Care</h3>
                 <h1 className="display-4 text-white mb-0">
@@ -65,7 +71,7 @@ const Pricing = () => {
           </div>
           <div className="bg-light rounded text-center">
             <div className="position-relative">
-              <img className="img-fluid rounded-top" src="img/price-4.jpg" alt="" />
+              <img className="img-fluid rounded-top" src={priceFour} alt="" />
               <div className="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style={{ background: 'rgba(29, 42, 77, .8)' }}>
                 <h3 className="text-white">Operation & Surgery</h3>
                 <h1 className="display-4 text-white mb-0">

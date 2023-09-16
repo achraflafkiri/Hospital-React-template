@@ -1,5 +1,10 @@
 import React from 'react';
 
+// Import Images
+import team1 from "../assets/images/team-1.jpg"
+import team2 from "../assets/images/team-2.jpg"
+import team3 from "../assets/images/team-3.jpg"
+
 const Team = () => {
   return (
     <div className="container-fluid py-5">
@@ -12,7 +17,7 @@ const Team = () => {
           <div className="team-item">
             <div className="row g-0 bg-light rounded overflow-hidden">
               <div className="col-12 col-sm-5 h-100">
-                <img className="img-fluid h-100" src="img/team-1.jpg" style={{ objectFit: 'cover' }} alt="" />
+                <img className="img-fluid h-100" src={team1} style={{ objectFit: 'cover' }} alt="" />
               </div>
               <div className="col-12 col-sm-7 h-100 d-flex flex-column">
                 <div className="mt-auto p-4">
@@ -31,7 +36,7 @@ const Team = () => {
           <div className="team-item">
             <div className="row g-0 bg-light rounded overflow-hidden">
               <div className="col-12 col-sm-5 h-100">
-                <img className="img-fluid h-100" src="img/team-2.jpg" style={{ objectFit: 'cover' }} alt="" />
+                <img className="img-fluid h-100" src={team2} style={{ objectFit: 'cover' }} alt="" />
               </div>
               <div className="col-12 col-sm-7 h-100 d-flex flex-column">
                 <div className="mt-auto p-4">
@@ -50,7 +55,7 @@ const Team = () => {
           <div className="team-item">
             <div className="row g-0 bg-light rounded overflow-hidden">
               <div className="col-12 col-sm-5 h-100">
-                <img className="img-fluid h-100" src="img/team-3.jpg" style={{ objectFit: 'cover' }} alt="" />
+                <img className="img-fluid h-100" src={team3} style={{ objectFit: 'cover' }} alt="" />
               </div>
               <div className="col-12 col-sm-7 h-100 d-flex flex-column">
                 <div className="mt-auto p-4">

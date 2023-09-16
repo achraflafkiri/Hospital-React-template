@@ -25,7 +25,7 @@ const Navbar = () => {
             <div className="navbar-nav ms-auto py-0">
 
               {pages.map((item, index) => ( // Add a key prop
-                <Link key={index} to={item.toLocaleLowerCase()} className="nav-item nav-link">
+                <Link key={index} to={item.toLocaleLowerCase() === "home" ? "/" : item.toLocaleLowerCase()} className="nav-item nav-link">
                   {item.toLocaleLowerCase()}
                 </Link>
               ))}
